@@ -4,7 +4,7 @@ const path = require("path");
 
 app.use(express.static(path.join(__dirname, "public")));
 
-app.set("puerto", process.env.PORT ||3001)
+const port= process.env.PORT ||3001;
 
 //rutas
 app.get("/", function (req, res) {
@@ -16,7 +16,4 @@ app.get('/register', (req, res) => {
 app.get('/login', (req, res) => {
   res.sendFile(path.resolve(__dirname, './views/login.html'));
 });
-
-app.listen(3010, () => {
-  console.log("Success");
-});
+app.listen(port, () => console.log("Servidor corriendo en el puerto " + port ));
