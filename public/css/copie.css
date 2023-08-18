@@ -1,0 +1,57 @@
+html,
+body {
+  margin: 0;
+}
+*{
+    margin: 0px;
+    padding: 0px;    
+    box-sizing: border-box;
+}
+.formulario{
+    background-color: lightgray;
+    width: 70%;
+    margin: 30px auto;
+}
+.formulario div{
+    margin: 10px 10px;
+    padding: 10px 15px;
+}
+.formulario p{
+    padding: 5px 0px;
+}
+.formulario label {
+    display: block;
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  .formulario input[type="text"],
+  .formulario input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    box-shadow: inset 0px 0px 5px rgba(0, 0, 0, 0.1);
+  }
+.formulario .button{
+    margin: 10px auto;
+    display: inline-block;
+}
+.formulario .button button{
+    width: 125%;
+    padding: 10px 0px;
+    margin: 0px 15px;
+}
+.formulario .button1 button{
+    background-color: darkgray;
+    color: white;
+}
+.formulario .button1 button:hover{
+    background-color: #0022AA;
+}
+.formulario .button2 button{
+    background-color: darkgray;
+    color: white;
+}
+.formulario .button2 button:hover{
+    background-color: #0022AA;
+}
